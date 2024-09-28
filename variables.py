@@ -1,0 +1,12 @@
+'''
+a,b,c="hello","world","worl"
+print(a,b,c)
+'''
+'''
+a=b=c="hey"
+print(a,b,c)
+'''
+a="abd"
+a="bnd"
+a="wer"
+print(a)

@@ -1,0 +1,17 @@
+def vowels_found(string):
+    count=0
+    vowels_found=[]
+    vowels="AEIOUaeiou"
+    for char in string:
+        if char in vowels:
+            count+=1
+            vowels_found.append(char)
+    return count,vowels_found
+s=input("enter the string:")
+result,List=vowels_found(s)
+
+print("number of vowels",result)
+print("List of vowels",List)
+
+
+
